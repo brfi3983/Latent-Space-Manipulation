@@ -1,0 +1,2 @@
+# Latent Space Representations
+The aim for this repository is to develop both theory and implementation of efficiently computing interpolations and translations within latent space models. More code will be added as I learn more on how to develop this type of framework.
