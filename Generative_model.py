@@ -11,8 +11,8 @@ class Net(nn.Module):
 									nn.ReLU(),
 									nn.Linear(in_features=256, out_features=128),
 									nn.ReLU(),
-									nn.Linear(in_features=128, out_features=32)),
-									nn.ReLU(),
+									nn.Linear(in_features=128, out_features=32),
+									nn.ReLU())
 		self.decoder = nn.Sequential(
 									nn.Linear(in_features=32, out_features=128),
 									nn.ReLU(),
